@@ -1,0 +1,14 @@
+1. Installed nvm using the following command:
+   curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.7/install.sh | bash
+   
+2. Closed and reopened the terminal to apply changes.
+
+3. Loaded nvm using:
+   export NVM_DIR="$([ -z "${XDG_CONFIG_HOME-}" ] && printf %s "${HOME}/.nvm" || printf %s "${XDG_CONFIG_HOME}/nvm")"
+   [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"
+
+4. Installed Node.js version 20.16:
+   nvm install 20.16
+
+5. Installed SASS version 3.7.4:
+   npm install sass@3.7.4
